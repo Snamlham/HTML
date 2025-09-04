@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form exercise</title>
+</head>
+<body>
+    <div>
+        <form>
+            <fieldset>
+                <legend>Login</legend> 
+                <label for="username">Username*</label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="password">Password*</label><br>
+                <input type="password" id="pwd" name="password"><br>
+            </fieldset>
+        </form>
+    
+        <form>
+            <fieldset>
+                <legend>Gender*</legend>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </fieldset>
+        </form>
+
+        <form>
+            <fieldset>
+                <legend>Programming Skill</legend>
+                <input type="checkbox" id="program1" name="program1" value="Java">
+                <label for="program1">Java</label>
+
+                <input type="checkbox" id="program2" name="program2" value="C++">
+                <label for="program2">C++</label>
+
+                <input type="checkbox" id="program3" name="program3" value="C#">
+                <label for="program3">C#</label>
+            </fieldset>
+        </form>
+
+        <form>
+            <fieldset>
+                <legend>Fruit</legend>
+                <label for="fruit">Choose a fruit:</label>
+                <select id="fruit" name="fruit">
+                    <option value="banana">Banana</option>
+                    <option value="apple">Apple</option>
+                    <option value="mango">Mango</option>
+                    <option value="orange">Orange</option>
+                </select>
+            </fieldset>
+        </form>
+        <form>
+            <textarea name="message" rows="10" cols="30">Enter your comment here</textarea><br>
+            <input type="submit" value="SEND">
+            <input type="reset" value="RESET">
+
+        </form>
+
+    </div>
+
+
+</body>
+</html>
